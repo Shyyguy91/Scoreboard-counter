@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F43F5E;
+    height: 380px;
+    width: 590px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.home-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    height: 100%;
+    justify-content: flex-start;
+    padding: 15px 0;
+    
+    
+}
+
+.home-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: -25px;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 0px;
+    height: 40px;
+    
+}
+
+.home-buttons button {
+   margin: 0 5px;
+   padding: 10px 15px;
+   font-size: 15px;
+   cursor: pointer;
+   font-family: 'CursedTimer', sans-serif;
+   color: #9AABD8;
+}
+
+@font-face {
+    font-family: 'CursedTimer';
+    src: url(CursedTimerUlil-Aznm.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font {
+    width: 40px;
+    height: 40px;
+    background-color: #F43F5E;
+    border: #9AABD8 solid 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.home-counter{
+    font-family: 'CursedTimer', sans-serif;
+    color: red;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
